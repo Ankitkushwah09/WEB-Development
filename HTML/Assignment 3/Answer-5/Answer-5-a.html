@@ -9,30 +9,41 @@
     <h1 style="text-align: center;"><b>Sign-up</b></h1>
     <hr>
 
-    <p>Please fill in this form to create an account.</p>
+    <p><b>Please fill up this form to Sign-up</b></p><br>
     <form action="/action_page.php"></form>
-    <b>1. Enter Your First Name:</b>
-    <input type="text"  placeholder="Enter Your First Name " required><br>
-    <b>2. Enter Your Last Name:</b>
-    <input type="text"  placeholder="Enter Your Last Name " required><br>
-    <b>3. Enter Your Email Id:</b>
-    <input type="email"  placeholder="Enter Your Email Id " required><br>
-    <b>4. Enter Your Password:</b>
-    <input type="password"  placeholder="Enter Your Password " required><br>
-    <b>5. Confirm Password:</b>
-    <input type="password"  placeholder="Confirm Your Password " required><br>
-    <b>6. Age:</b>
-    <input type="date" required><br>
-    </label><b>7.Gender </b>
-    <select name="" id="">
-        <option value="1">male</option>
-        <option value="2">female</option>
-        <option value="3">other</option>
-    </select required><br>
-    <input type="checkbox" required>Agree to term and conditions. <br>
-    <button type="submit" class="Sign-up">Sign up</button>
-    <button type="cancle">cancle</button>
-
+    <form id="signupForm" onsubmit="return ">
+        <label for="firstName"><b>1.First Name:</b></label>
+        <input type="text" id="firstName" name="firstName" required minlength="3" ><br><br>
+      
+        <label for="lastName"><b>2.Last Name:</b></label>
+        <input type="text" id="lastName" name="lastName" required minlength="3"><br><br>
+      
+        <label for="email"><b>3.Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="password">4.Password:</label>
+        <input type="password" id="password" name="password" required minlength="6"><br><br>
+      
+        <label for="confirmPassword">5.Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required minlength="6"><br><br>
+      
+        <label for="age">6.Age:</label>
+        <input type="number" id="age" name="age" required maxlength="150" min="14" ><br><br>
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br><br>
+      
+        <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+        <label for="agreeTerms">I agree to the terms and conditions</label><br><br>
+      
+        <input type="submit" value="Sign Up">
+      </form>
+      
+      
     
       
 </body>
