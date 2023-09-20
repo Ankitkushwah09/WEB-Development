@@ -1,0 +1,30 @@
+Favicon
+
+
+A favicon is a small, 16x16 pixel icon used on web browsers to represent a website or a web page. Short for “favorite icon,”’ favicons are commonly displayed on tabs at the top of a web browser,—but they’re also found on your browser’s bookmark bar, history and in search results, alongside the page url. 
+
+
+In some instances, such as on Google Chrome, favicons will even make an appearance on your browser’s homepage. In other words, when you create a favicon, it serves as your website’s icon, or a visual identifier for users to spot your website around the web.
+
+
+A favicon may also be referred to as a shortcut icon, tab icon, URL icon or bookmark icon. 
+
+  
+
+
+for example:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
