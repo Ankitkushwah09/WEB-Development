@@ -1,0 +1,37 @@
+3 ways to improve web accessibility of html are:
+
+
+1. Properly use HTML markup
+
+
+
+Whether or not a web designer manually enters HTML, it’s important to place headers in an order that makes sense. Screen readers that articulate information on a web page use headers as guideposts.
+
+If the HTML of a page is messy or headers aren’t used properly, users accessing a website with a screen reader will have difficulties navigating.
+
+The H1 element should be used for main ideas on a page with subsequent headings (H2, H3, etc.) following a logical, topic-based pattern. This helps users understand the page and the relationship between the elements on it.
+
+Links should also accurately describe the page that users will be taken to. Links that simply read “Click Here” or “Read More” tell users nothing about the content of the web page
+
+
+
+2. Include succinct, descriptive image alt text
+
+
+
+Alt text is often forgotten when images are added to web pages. After all, most people only use alt text when searching for images in a search engine or conducting a reverse image search.
+
+But for people using screen readers, alt text is all they have to rely on to learn about a displayed image. Users can get confused if an image’s alt text isn’t changed or isn’t necessarily representative of what the image depicts. This is especially harmful if the image is critical to understanding the webpage.
+
+With that in mind, it’s good practice to not use images as navigation elements or as the only content on a blog. When writing alt text, make sure the description is accurate but not too wordy. This will also help with search engine optimization (SEO). Employing clean and thoughtful HTML aids both SEO and web accessibility, so you can hit two birds with one stone.
+
+
+
+3. Consider CAPTCHA options
+A completely automated public Turing test to tell computers and humans apart, often abbreviated to CAPTCHA, is an aptly — if terribly — named tool. CAPTCHAs are particularly common on login screens to verify the person signing in is in fact a human and not a spam bot.
+
+CAPTCHAs often present users with an image of warped letters that must be typed into a text box before allowing users to move forward. As useful as they are in preventing spam, they pose a number of problems for people with accessibility needs.
+
+CAPTCHAs can be especially confusing for those with dyslexia or some cognitive difficulties. Some CAPTCHA images don’t take into consideration people with colorblindness, who may not be able to differentiate the letters from the background. CAPTCHA images are also unreadable by screen readers, but adding the correct answer to alt text on the page could defeat the purpose of the test.
+
+If CAPTCHAs are a must for your website, ensure they have accessible options like audio-based tests or Google’s reCAPTCHA v3, which allows users to pass a CAPTCHA test just by clicking a box.

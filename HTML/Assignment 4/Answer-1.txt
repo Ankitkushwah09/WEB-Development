@@ -1,0 +1,105 @@
+Top 12 HTML5 Features are :
+
+
+1. Semantic Elements
+
+When constructing an HTML script, the term “semantic” refers to the meaning of the text. Semantics, to put it simply, is the use of HTML tags that accurately reflect the content they contain. For instance, using the <div> tag doesn’t suggest the content it will carry, however using the <p> tag suggests it can be used to hold paragraph information. 
+
+There are a lot of reasons why you should write Semantic tags instead of normal HTML tags, to leverage SEO, accessibility, and browser compatibility. 
+
+
+
+2. Audio and Video Support
+
+One of the many HTML 5 features is the support for audio and video. It has reduced the hassle of relying upon third-party services such as Adobe Flash player. To embed Audio and Video into your HTML document, you may use the following two tags, <audio> and <video> tags. 
+
+These two tags are launched with the release of HTML 5 and support a numerous range of attributes such as height, width, and more that offers developers to leverage the customization of HTML documents. 
+
+
+
+3. Canvas Elements
+
+Canvas Elements is a top-notch feature that has made the tedious task of handling graphics easier for developers. With the help of Canvas elements, you can easily draw graphics using JavaScript. It is optimum for creating simple animations and drawing photo compositions. 
+
+To initialize the Canvas element <canvas> tag is used with only two specific attributes, width and height. Once, the element is initialized, it is then taken care of with the help of JavaScript to draw shapes, lines, images, and more.
+
+
+
+
+4. Geolocation API
+
+The Geolocation API is an HTML feature that is used to access the geographical position of a user, however, it is not accessed unless the user approves of it. If you’re wondering where this feature is useful, these come in handy while creating apps like taxi apps, food order tracking apps, fitness tracking apps, and more. 
+
+The location is achieved in a way that a user sends their longitude and latitude and this data is sent to the backend server, after which we access that data to create all these fancy applications. 
+
+
+
+
+5. Local Storage 
+
+It is a modern feature of HTML and several browsers that typically store data in the user’s browsers and can access them with the help of JavaScript APIs. This feature is useful for creating offline applications where data is need to be stored locally. 
+
+Moreover, using this feature you can reduce the transactions between the application and the backend server, creating a fast application. However, there are some limitations, such as there is limited storage, and you can not access more storage than that. 
+
+
+
+
+6. Responsive Images
+
+Earlier to create responsive images on the web, you have to rely upon several lines of CSS and sometimes JavaScript, however, HTML 5 makes the process handy by including srcset attribute to specify multiple versions of an image at different screen resolutions
+
+
+
+7. Web Workers
+
+When you are performing several demanding tasks at once, the browser gets sluggish and responds slowly. Because of this, web workers were added to HTML 5 to allow scripts to operate in the background without interfering with the UI thread. 
+
+This may be used to execute demanding operations like multimedia processing in the background. To further demonstrate the usage of Web Workers, we shall create a simple counter app that starts the counter when you click ‘start’ and stop the counting when you click ‘stop’. 
+
+
+
+
+8. Drag and Drop API
+
+Drag and drop is among the most unique features of HTML5 that allow you to grab any element in the DOM and drop it to a different location. To create an element able to drag and drop, set the attribute “draggable” on the tag and put its value to true. Let’s understand this process using a practical coding example.
+
+
+
+
+9. Form enhancements
+
+HTML 5 introduces new features for your existing forms on HTML to create a more robust user experience. Some of the key enhancements in the new HTML 5 include new input times such as email, URL, and more, placeholder text, required fields feature, validation, and more. 
+
+
+
+10. Web Sockets
+
+In the previous versions of HTML, when a client sends a request to the backend server, the server then responds afterward. However, in HTML 5 we can establish a bidirectional live communication between the server and the client (a web browser) to reduce the latency in the responses. 
+
+It has its usage in large-scale applications due to its capability of handling large amounts of connections simultaneously between the server and the client such as online gaming applications, live trading, and other live low-latency applications. 
+
+
+
+
+11. Micro Data 
+
+Micro Data in simpler words is a further deeper level to provide semantics to your webpage. This feature is used to structure data in HTML documents by embedding your own customized elements. 
+
+There are five global attributes: 
+
+1.itemref, 
+2.itemmid, 
+3.itemscope, 
+4.itemprop, and 
+5.itemtype
+ 
+These attributes are used to give the HTML elements more context to define the role they play in the webpage. Microdata may be used to specify a variety of structured data, such as details about events, items, companies, and more.
+
+
+
+12. Cross Document Messaging
+
+In general, web browsers don’t let web pages from different domains influence each other, this is done for several security reasons, however, even if the web pages don’t intend to intrigue the privacy or harm the other web page. There are several scenarios, in which you want to access cross-document communication to make your web page more interactive with less effort. 
+
+Some of these scenarios are when you want to embed data from third-party sites such as maps, photos, videos, and more. This can be achieved in HTML 5 with the feature of cross-document messaging, to enable real-time communication between different parts of websites opened in different frames, windows.
+
