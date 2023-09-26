@@ -1,0 +1,37 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content_paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .content_paragraph--highlighted {
+    background-color: #ffcc00;
+  }
+  
+  .content_paragraph--special {
+    font-style: italic;
+  }
+  /* BEM which stands for Block, Element and Modifier, is a naming convention of CSS that was introduced by
+     Yandex in order to better connect the HTML and CSS files and make developers be more descriptive with
+     their class names.
+
+
+     Block - The highest level of abstraction, representing a standalone component or entity on the page.
+             Blocks are reusable and can be used independently. Block names are written in all lowercase and
+             separated by hyphens. For example .header, .menu, .butto
+
+
+    Element - it represents a part of a block that has no standalone meaning. Elements depend on their
+              parent block for context. Element names are written in all lowercase and are separated from the block
+              name by a double underscore (__). For example .header__logo, .menu__item, .button__iconP
+
+
+    Modifier - it is used to change the appearance or behaviour of a block or element. It represents variations
+               or states of a block or element. Modifier names are written in all lowercase and are separated from the
+               block or element name by a double dash (--). For example .button--primary, .menu__item--active */

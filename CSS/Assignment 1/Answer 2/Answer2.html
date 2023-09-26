@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEM Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="content">
+    <p class="content_paragraph">This is the first paragraph.</p>
+    <p class="content_paragraph--highlighted">This is the second paragraph.</p>
+    <p class="content_paragraph--special">This is the third paragraph.</p>
+  </div>
+  <!-- 1. The main container div with class content provides a maximum width and centers the content.
+
+    
+       2. The paragraphs have unique class names following the BEM convention: content__paragraph, content__paragraph--highlighted, and content__paragraph--special.
+          content__paragraph: This class represents a regular paragraph.
+          content__paragraph--highlighted: This class represents a paragraph that should be highlighted.
+          content__paragraph--special: This class represents a paragraph with special styling (in this case, italicized text).
+
+
+          By using BEM, we create a clear and structured naming convention for our classes, making it easy to understand their purpose and ensuring maintainability in larger projects. -->
+</body>
+</html>
