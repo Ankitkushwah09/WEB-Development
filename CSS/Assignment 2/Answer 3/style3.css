@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(95, 95, 211); 
+    
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:green;
+  }
+   ul li:nth-child(1){
+      border-style: dotted;
+  }
+  ul li:nth-child(2){
+      border-style: solid;
+  }
+
+  ul li:nth-child(3){
+      border-style: double;
+  }
+  ul li:nth-child(4){
+      border-style: dashed;
+  }
+  ul li:nth-child(5){
+      border-style: groove;
+  }
+  

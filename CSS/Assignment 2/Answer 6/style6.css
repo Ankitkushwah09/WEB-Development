@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-size: larger;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: rgb(91, 85, 85);
+}
+
+h1{
+    font-size: xx-large;
+    font-family: sans-serif;
+}

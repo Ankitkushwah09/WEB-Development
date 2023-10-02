@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+div{
+    margin: 20px auto;
+    height: 260px;
+    width: 320px;
+    padding: 2px;
+    padding-bottom: 80px;
+    background-color: rgba(0, 255, 187, 0.89);
+    border-radius: 7%;
+}
+div:hover{
+    opacity: 50%;
+}
+
+p{
+    padding: 5px;
+}

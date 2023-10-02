@@ -1,0 +1,8 @@
+img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    border:2px dashed red
+    
+  }
