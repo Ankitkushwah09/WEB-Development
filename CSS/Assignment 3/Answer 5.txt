@@ -1,0 +1,62 @@
+Z-Index:
+
+Z Index (z-index) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.
+
+Note: Z index only works on positioned elements (position:absolute, position:relative, or position:fixed).
+
+Possible Values
+/* Default value if not specified */
+z-index: auto;
+
+/* Integer values */
+z-index: 1;
+z-index: 100;
+z-index: 9999;
+z-index: -1;
+
+/* Global values */
+z-index: inherit;
+z-index: initial;
+z-index: unset;
+How to use the Z Index
+In this example, you can see three boxes displayed on top of each other in different orders using z-index.
+
+HTML
+
+<div class="container">
+  <div class="box" id="blue"></div>
+  <div class="box" id="red"></div>
+  <div class="box" id="green"></div>
+</div>
+CSS
+
+#blue {
+  background-color: blue;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+Since z-index wasn’t defined, it will have a default value of auto. This is a result:
+
+Try to change the order to Green, Blue, Red in CSS using z-index.
+
+#blue {
+  background-color: blue;
+  z-index: 2;
+}
+
+#red {
+  background-color: red;
+  z-index: 1;
+}
+
+#green {
+  background-color: green;
+  z-index: 3;
+}
+In result you will find out that the color are aline serial number wise

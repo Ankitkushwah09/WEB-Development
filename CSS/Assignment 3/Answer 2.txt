@@ -1,0 +1,11 @@
+Relative Positioning:
+
+1.When position:relative is given to an element without any other attributes (top, bottom, left, right) nothing will happen.
+2.But when an attribute left:20px is added the element moves 20px to the right from its normal position. The element effects no other element on the layout. Other content will not be adjusted to fit into any gap left by the element.
+3.The child of this element can be positioned within this block only. So position:relative has its limitations.
+
+Absolute Positioning:
+
+1.When position:absolute is given to an element the element can be placed precisely where one wants to.
+2.The element is positioned nearest to the first relatively or absolutely positioned parent element.
+3.When there is no parent element the absolutely positioned element is positioned directly to the HTML page itself.
