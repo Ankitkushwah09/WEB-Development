@@ -1,0 +1,109 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.pricing-section{
+    min-height:100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F4F2FD;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Nunito;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 262px;
+    height: 363px;
+    padding: 32px;
+}
+
+h1{
+    color: #202842;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    gap: 16px;
+    font-family: Nunito;
+}
+
+p{
+    color: #202842;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+#ol{
+    padding: 16px;
+    padding-left: 0%;
+}
+
+ul{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+}
+li{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    display: inline-flex;
+    padding: 0.5rem 0.5rem 0.25rem 0.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+li img{
+    width: 1.375rem;
+    height: 1.375rem;
+}
+
+.free-subscribe{
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.button{
+    color: #FFF;
+    background-color: #202842;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+}
+#basic-container{
+    background-color: #202842;
+}
+#basic-container *{
+    color: #FFF;
+}
+
+#pree{
+    background-color: #F4F2FD;
+    color: #202842;
+}

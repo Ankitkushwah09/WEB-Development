@@ -1,0 +1,68 @@
+1. Justify-content
+
+The justify-content property is a sub-property of the Flexible Box Layout module.
+It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
+The justify-content property accepts five different values:
+
+1.flex-start (default): items are packed toward the start line
+2.flex-end: items are packed toward to end line
+3.center: items are centered along the line
+4.space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line
+5.space-around: items are evenly distributed in the line with equal space around them
+6.space-evenly: items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same
+
+
+Align-item
+
+The align-items property defines the default behavior for how items are laid out along the cross axis (perpendicular to the main axis).
+Imagine a horizontal flexbox layout. That horizontal flow is the main axis, so align-items is the alignment opposite that, on the vertical axis. Bear in mind that changes when the main axis changes, and the cross axis changes with it.
+You can think of align-items as the justify-content version for the cross-axis (perpendicular to the main-axis).
+
+2. The align-items property accepts 5 different values:
+
+1.flex-start: cross-start margin edge of the items is placed on the cross-start line
+2.flex-end: cross-end margin edge of the items is placed on the cross-end line
+3.center: items are centered in the cross-axis
+4.baseline: items are aligned such as their baselines align
+5.stretch (default): stretch to fill the container (still respect min-width/max-width)
+
+
+
+3. Gap
+
+The gap property in CSS is a shorthand for row-gap and column-gap, specifying the size of gutters, which is the space between rows and columns within grid, flex, and multi-column layouts.
+
+
+gap accepts the following values:
+
+1.normal: (Default) The browser will specify a used value of 1em for multi-column layout and 0px for all other layout contexts (i.e. grid and flex).
+2.<length>: Any valid and non-negative CSS length, such as px, em, rem and %, among others.
+3.<percentage>: The size of the gap as a non-negative percentage value relative to the dimension of the element. (See below for details.)
+4.initial: Applies the property’s default setting, which is normal.
+5.inherit: Adopts the gap value of the parent.
+6.unset: Removes the current gap from the element.
+7.Percentages in gap properties
+
+4. Flex-direction
+
+
+The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+
+
+The flex-direction property accepts four possible values:
+
+1.row: same as text direction (default)
+2.row-reverse: opposite to text direction
+3.column: same as row but top to bottom
+4.column-reverse: same as row-reverse top to bottom
+
+5. Flex-wrap
+
+The flex-wrap property is a sub-property of the Flexible Box Layout Module. It defines whether the flex items are forced in a single line or can be flowed into multiple lines. If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in, aiding responsiveness layout behavior without CSS media queries.
+
+values
+
+1.nowrap (default): single-line which may cause the container to overflow
+2.wrap: multi-lines, direction is defined by flex-direction
+3.wrap-reverse: multi-lines, opposite to direction defined by flex-direction
