@@ -1,0 +1,16 @@
+button{
+    background-color: rgb(104, 104, 255);
+    padding: 40px 100px;
+    border-radius: 30px;
+    margin: 200px;
+    border: none;
+    color: white;
+    font-size: xx-large;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.5);
+}

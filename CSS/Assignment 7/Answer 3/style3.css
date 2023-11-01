@@ -1,0 +1,8 @@
+h1::before{
+    content: "Amar ";
+    color: rgb(81, 255, 0);
+}
+h1::after{
+    content: " Antony ";
+    color: rgb(41, 0, 128);
+}
